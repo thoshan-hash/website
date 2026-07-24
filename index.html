@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Travel Agency Demo- Your trusted travel partner across Karnataka. Premium vehicle rentals, outstation tours, airport transfers, and local sightseeing in Bengaluru.">
+  <meta name="keywords" content="travel agency bangalore, cab booking bengaluru, outstation tours karnataka, airport taxi bangalore, tempo traveller rental bengaluru, innova crysta rental, keerthana tours travels">
+  <meta name="author" content="Travel Agency Demo">
+  <title>Travel Agency Demo | Premium Travel & Car Rentals Karnataka</title>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚖</text></svg>">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader">
+    <div class="preloader-content">
+      <div class="preloader-spinner"></div>
+      <span class="preloader-logo">Travel </span>
+      <span class="preloader-sub">Agency Demo</span>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="header" id="header">
+    <div class="nav-container">
+      <a href="#home" class="logo" id="nav-logo">
+        <span class="logo-text">Travel</span>
+        <span class="logo-sub">Agency Demo</span>
+      </a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#fleet" class="nav-link">Fleet</a></li>
+          <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+          <li class="nav-item"><a href="#why-choose-us" class="nav-link">Why Choose Us</a></li>
+          <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn-book-nav">
+          <i data-lucide="calendar"></i>
+          <span>Book Now</span>
+        </a>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?auto=format&fit=crop&w=1600&q=80" alt="Scenic road trip in Karnataka" class="hero-img">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="container hero-container">
+        <div class="hero-content reveal-fade-up">
+          <div class="badge-premium">
+            <i data-lucide="shield-check"></i>
+            <span>#1 Rated Travel Partner in Bengaluru</span>
+          </div>
+          <h1 class="hero-title">Your Trusted Travel Partner <span class="text-accent">Across Karnataka</span></h1>
+          <p class="hero-subtitle">Experience smooth, safe, and professional journeys with Bengaluru's leading car rental and tour service. Clean vehicles, polite drivers, and punctual pickups guaranteed.</p>
+          
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <i data-lucide="plane-takeoff"></i>
+              <span>Airport Transfers</span>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="map-pin"></i>
+              <span>Local Sightseeing</span>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="milestone"></i>
+              <span>Outstation Tours</span>
+            </div>
+            <div class="highlight-item">
+              <i data-lucide="building-2"></i>
+              <span>Corporate Travel</span>
+            </div>
+          </div>
+          
+          <div class="hero-ctas">
+            <a href="https://wa.me/919379740044?text=Hello%20Keerthana%20Tours%20%26%20Travels%2C%20I'd%20like%20to%20inquire%20about%20booking%20a%20vehicle." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              <i data-lucide="message-square"></i>
+              <span>Book on WhatsApp</span>
+            </a>
+            <a href="tel:+919379740044" class="btn btn-outline">
+              <i data-lucide="phone"></i>
+              <span>Call Now</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator" id="scroll-indicator">
+        <span class="mouse">
+          <span class="wheel"></span>
+        </span>
+        <span class="scroll-text">Scroll Down</span>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services section-padding" id="services">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag">What We Offer</span>
+          <h2 class="section-title">Our Premium Services</h2>
+          <p class="section-desc">Tailored travel solutions designed to meet all your corporate, leisure, and emergency travel needs across Southern India.</p>
+        </div>
+        
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card reveal-fade-up" style="transition-delay: 0.1s;">
+            <div class="service-icon">
+              <i data-lucide="plane-takeoff"></i>
+            </div>
+            <h3 class="service-title">Airport Pickup & Drop</h3>
+            <p class="service-text">Stress-free transfers to and from Kempegowda International Airport (BLR). Flight tracking ensures we are always on time, no matter what.</p>
+            <ul class="service-features">
+              <li><i data-lucide="check"></i> 24/7 Availability</li>
+              <li><i data-lucide="check"></i> Meet & Greet service</li>
+            </ul>
+          </div>
+          
+          <!-- Card 2 -->
+          <div class="service-card reveal-fade-up" style="transition-delay: 0.2s;">
+            <div class="service-icon">
+              <i data-lucide="map"></i>
+            </div>
+            <h3 class="service-title">Local Sightseeing</h3>
+            <p class="service-text">Explore the beautiful parks, palaces, and heritage spots of Bengaluru with custom itineraries designed for your convenience.</p>
+            <ul class="service-features">
+              <li><i data-lucide="check"></i> Flexible hourly packages</li>
+              <li><i data-lucide="check"></i> Expert local driver guides</li>
+            </ul>
+          </div>
+          
+          <!-- Card 3 -->
+          <div class="service-card reveal-fade-up" style="transition-delay: 0.3s;">
+            <div class="service-icon">
+              <i data-lucide="compass"></i>
+            </div>
+            <h3 class="service-title">Outstation Tours</h3>
+            <p class="service-text">Scenic long drives and multi-day packages to Mysore, Coorg, Hampi, Ooty, Chikmagalur, Wayanad, and other weekend getaways.</p>
+            <ul class="service-features">
+              <li><i data-lucide="check"></i> Custom multi-day plans</li>
+              <li><i data-lucide="check"></i> Seamless highway toll setups</li>
+            </ul>
+          </div>
+          
+          <!-- Card 4 -->
+          <div class="service-card reveal-fade-up" style="transition-delay: 0.4s;">
+            <div class="service-icon">
+              <i data-lucide="briefcase"></i>
+            </div>
+            <h3 class="service-title">Corporate Travel</h3>
+            <p class="service-text">Executive-class sedans and SUVs for business meetings, corporate events, delegate visits, and routine employee transportation.</p>
+            <ul class="service-features">
+              <li><i data-lucide="check"></i> Priority support & billing</li>
+              <li><i data-lucide="check"></i> Highly professional drivers</li>
+            </ul>
+          </div>
+          
+          <!-- Card 5 -->
+          <div class="service-card reveal-fade-up" style="transition-delay: 0.5s;">
+            <div class="service-icon">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 class="service-title">Family Trips</h3>
+            <p class="service-text">Make lasting memories in spacious, fully air-conditioned Ertigas, Innovas, and Tempo Travellers built for total family comfort.</p>
+            <ul class="service-features">
+              <li><i data-lucide="check"></i> Child-friendly spacing</li>
+              <li><i data-lucide="check"></i> Generous luggage space</li>
+            </ul>
+          </div>
+          
+          <!-- Card 6 -->
+          <div class="service-card reveal-fade-up" style="transition-delay: 0.6s;">
+            <div class="service-icon">
+              <i data-lucide="bus"></i>
+            </div>
+            <h3 class="service-title">Group & Bus Bookings</h3>
+            <p class="service-text">Comfortable coaches and Tempo Travellers for larger pilgrimage groups, weddings, educational field trips, and family retreats.</p>
+            <ul class="service-features">
+              <li><i data-lucide="check"></i> AC & Non-AC choices</li>
+              <li><i data-lucide="check"></i> Reliable audio/video setups</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section class="fleet section-padding bg-light" id="fleet">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag">Our Wheels</span>
+          <h2 class="section-title">Maintainence-Perfect Fleet</h2>
+          <p class="section-desc">Choose from our pristine, well-maintained vehicles sanitized daily for hygiene, freshness, and optimal passenger safety.</p>
+        </div>
+        
+        <div class="fleet-grid">
+          <!-- Sedan -->
+          <div class="fleet-card reveal-fade-up" data-vehicle="Sedan">
+            <div class="fleet-img-container">
+              <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=600&q=80" alt="Sleek silver Toyota Etios / Sedan" class="fleet-img">
+              <span class="fleet-badge">Most Popular</span>
+            </div>
+            <div class="fleet-body">
+              <h3 class="fleet-title">Sedan (Dzire / Etios)</h3>
+              <p class="fleet-desc">Perfect for couples, corporate professionals, airport transfers, and compact city sightseeing trips.</p>
+              <div class="fleet-specs">
+                <div class="spec-item"><i data-lucide="users-2"></i> <span>4 + 1 Seats</span></div>
+                <div class="spec-item"><i data-lucide="briefcase"></i> <span>2 Bags</span></div>
+                <div class="spec-item"><i data-lucide="wind"></i> <span>Full AC</span></div>
+              </div>
+              <div class="fleet-action">
+                <a href="#contact" class="btn btn-primary btn-block btn-fleet-book" data-vehicle="Sedan">
+                  <span>Select & Book Sedan</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Ertiga -->
+          <div class="fleet-card reveal-fade-up" data-vehicle="Ertiga">
+            <div class="fleet-img-container">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2019_Suzuki_Ertiga_GA_1.5_front.jpg/640px-2019_Suzuki_Ertiga_GA_1.5_front.jpg" alt="Silver Maruti Suzuki Ertiga" class="fleet-img">
+              <span class="fleet-badge badge-accent">Best Value</span>
+            </div>
+            <div class="fleet-body">
+              <h3 class="fleet-title">Maruti Suzuki Ertiga</h3>
+              <p class="fleet-desc">Premium pocket-friendly MUV ideal for medium families, small tour groups, and outstation pilgrimages.</p>
+              <div class="fleet-specs">
+                <div class="spec-item"><i data-lucide="users-2"></i> <span>6 + 1 Seats</span></div>
+                <div class="spec-item"><i data-lucide="briefcase"></i> <span>3 Bags</span></div>
+                <div class="spec-item"><i data-lucide="wind"></i> <span>Full AC</span></div>
+              </div>
+              <div class="fleet-action">
+                <a href="#contact" class="btn btn-primary btn-block btn-fleet-book" data-vehicle="Ertiga">
+                  <span>Select & Book Ertiga</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Innova -->
+          <div class="fleet-card reveal-fade-up" data-vehicle="Innova">
+            <div class="fleet-img-container">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/2016_Toyota_Innova_2.4_V_GUN142_front_setup.jpg/640px-2016_Toyota_Innova_2.4_V_GUN142_front_setup.jpg" alt="White Toyota Innova MPV" class="fleet-img">
+            </div>
+            <div class="fleet-body">
+              <h3 class="fleet-title">Toyota Innova</h3>
+              <p class="fleet-desc">The legendary highway companion, offering ultimate stability and passenger comfort on long outstation tours.</p>
+              <div class="fleet-specs">
+                <div class="spec-item"><i data-lucide="users-2"></i> <span>7 + 1 Seats</span></div>
+                <div class="spec-item"><i data-lucide="briefcase"></i> <span>4 Bags</span></div>
+                <div class="spec-item"><i data-lucide="wind"></i> <span>Full AC</span></div>
+              </div>
+              <div class="fleet-action">
+                <a href="#contact" class="btn btn-primary btn-block btn-fleet-book" data-vehicle="Toyota Innova">
+                  <span>Select & Book Innova</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Innova Crysta -->
+          <div class="fleet-card reveal-fade-up" data-vehicle="Innova Crysta">
+            <div class="fleet-img-container">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/2016_Toyota_Innova_2.0_V_AN140_%2820201018%29.jpg/640px-2016_Toyota_Innova_2.0_V_AN140_%2820201018%29.jpg" alt="White Toyota Innova Crysta Luxury" class="fleet-img">
+              <span class="fleet-badge">Elite Choice</span>
+            </div>
+            <div class="fleet-body">
+              <h3 class="fleet-title">Toyota Innova Crysta</h3>
+              <p class="fleet-desc">Luxury reinvented. Ultimate shock absorbers, captain seats, automatic dual climate control, and supreme silence.</p>
+              <div class="fleet-specs">
+                <div class="spec-item"><i data-lucide="users-2"></i> <span>7 + 1 Seats</span></div>
+                <div class="spec-item"><i data-lucide="briefcase"></i> <span>4 Bags</span></div>
+                <div class="spec-item"><i data-lucide="wind"></i> <span>Dual AC</span></div>
+              </div>
+              <div class="fleet-action">
+                <a href="#contact" class="btn btn-primary btn-block btn-fleet-book" data-vehicle="Innova Crysta">
+                  <span>Select & Book Crysta</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Tempo Traveller -->
+          <div class="fleet-card reveal-fade-up" data-vehicle="Tempo Traveller">
+            <div class="fleet-img-container">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Force_Motors_Traveller_Luxury.jpg/640px-Force_Motors_Traveller_Luxury.jpg" alt="White Force Tempo Traveller Tour Bus" class="fleet-img">
+            </div>
+            <div class="fleet-body">
+              <h3 class="fleet-title">Tempo Traveller</h3>
+              <p class="fleet-desc">The perfect solution for larger families, corporate retreats, weddings, and group spiritual pilgrimages.</p>
+              <div class="fleet-specs">
+                <div class="spec-item"><i data-lucide="users-2"></i> <span>12 / 14 / 17 Seats</span></div>
+                <div class="spec-item"><i data-lucide="briefcase"></i> <span>Heavy Luggage</span></div>
+                <div class="spec-item"><i data-lucide="wind"></i> <span>AC & Non-AC</span></div>
+              </div>
+              <div class="fleet-action">
+                <a href="#contact" class="btn btn-primary btn-block btn-fleet-book" data-vehicle="Tempo Traveller">
+                  <span>Select & Book Traveller</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Mini Bus -->
+          <div class="fleet-card reveal-fade-up" data-vehicle="Mini Bus">
+            <div class="fleet-img-container">
+              <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=600&q=80" alt="Tourism Bus Coach" class="fleet-img">
+            </div>
+            <div class="fleet-body">
+              <h3 class="fleet-title">Luxury Mini Bus / Coach</h3>
+              <p class="fleet-desc">Premium state-of-the-art pushback seats, custom entertainment systems, and heavy-duty suspension for tour groups.</p>
+              <div class="fleet-specs">
+                <div class="spec-item"><i data-lucide="users-2"></i> <span>21 to 33 Seats</span></div>
+                <div class="spec-item"><i data-lucide="briefcase"></i> <span>Underbelly Luggage</span></div>
+                <div class="spec-item"><i data-lucide="wind"></i> <span>AC & Non-AC</span></div>
+              </div>
+              <div class="fleet-action">
+                <a href="#contact" class="btn btn-primary btn-block btn-fleet-book" data-vehicle="Mini Bus">
+                  <span>Select & Book Mini Bus</span>
+                  <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing section-padding" id="pricing">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag">Transparent Pricing</span>
+          <h2 class="section-title">Best Tariffs In Bengaluru</h2>
+          <p class="section-desc">No hidden charges. No surprise tolls. Honest billing with standard driver allowances, transparent outstation charges and hourly local packages.</p>
+        </div>
+        
+        <div class="pricing-grid">
+          <!-- Pricing Card 1 -->
+          <div class="pricing-card reveal-fade-up">
+            <div class="pricing-header">
+              <h3 class="pricing-vehicle">Premium Sedan</h3>
+              <p class="pricing-meta">Swift Dzire / Toyota Etios</p>
+              <div class="pricing-price">
+                <span class="currency">₹</span><span class="amount">2,200</span>
+                <span class="period">/ Local Package</span>
+              </div>
+              <p class="package-details">(8 Hours / 80 Kilometers Included)</p>
+            </div>
+            <div class="pricing-features">
+              <div class="p-feature-item">
+                <span class="label">Extra KM Rate</span>
+                <span class="value">₹12 / KM</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Extra Hour Rate</span>
+                <span class="value">₹150 / Hour</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Outstation KM Rate</span>
+                <span class="value">₹12 / KM <small>(Min 250KM)</small></span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Driver Allowance</span>
+                <span class="value">₹400 / Day</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Airport Transfer</span>
+                <span class="value text-accent">Flat rates available</span>
+              </div>
+            </div>
+            <div class="pricing-action">
+              <a href="#contact" class="btn btn-outline btn-block btn-select-price" data-vehicle="Sedan">Book Sedan Package</a>
+            </div>
+          </div>
+          
+          <!-- Pricing Card 2 (Featured) -->
+          <div class="pricing-card featured reveal-fade-up">
+            <div class="card-badge">Most Popular Family Car</div>
+            <div class="pricing-header">
+              <h3 class="pricing-vehicle text-white">Toyota Innova</h3>
+              <p class="pricing-meta text-white-70">Supreme Comfort Passenger MPV</p>
+              <div class="pricing-price text-white">
+                <span class="currency">₹</span><span class="amount">3,200</span>
+                <span class="period">/ Local Package</span>
+              </div>
+              <p class="package-details text-white-70">(8 Hours / 80 Kilometers Included)</p>
+            </div>
+            <div class="pricing-features">
+              <div class="p-feature-item">
+                <span class="label text-white-70">Extra KM Rate</span>
+                <span class="value text-white">₹17 / KM</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label text-white-70">Extra Hour Rate</span>
+                <span class="value text-white">₹200 / Hour</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label text-white-70">Outstation KM Rate</span>
+                <span class="value text-white">₹16 / KM <small>(Min 250KM)</small></span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label text-white-70">Driver Allowance</span>
+                <span class="value text-white">₹400 / Day</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label text-white-70">Inter-State Permits</span>
+                <span class="value text-accent">Arranged on request</span>
+              </div>
+            </div>
+            <div class="pricing-action">
+              <a href="#contact" class="btn btn-primary btn-block btn-select-price" data-vehicle="Toyota Innova">Book Innova Package</a>
+            </div>
+          </div>
+
+          <!-- Pricing Card 3 -->
+          <div class="pricing-card reveal-fade-up">
+            <div class="pricing-header">
+              <h3 class="pricing-vehicle">Maruti Suzuki Ertiga</h3>
+              <p class="pricing-meta">Pocket Friendly 7-Seater MUV</p>
+              <div class="pricing-price">
+                <span class="currency">₹</span><span class="amount">2,600</span>
+                <span class="period">/ Local Package</span>
+              </div>
+              <p class="package-details">(8 Hours / 80 Kilometers Included)</p>
+            </div>
+            <div class="pricing-features">
+              <div class="p-feature-item">
+                <span class="label">Extra KM Rate</span>
+                <span class="value">₹14 / KM</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Extra Hour Rate</span>
+                <span class="value">₹150 / Hour</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Outstation KM Rate</span>
+                <span class="value">₹13 / KM <small>(Min 250KM)</small></span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Driver Allowance</span>
+                <span class="value">₹400 / Day</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Best Use</span>
+                <span class="value text-accent">Pilgrimage & Small Families</span>
+              </div>
+            </div>
+            <div class="pricing-action">
+              <a href="#contact" class="btn btn-outline btn-block btn-select-price" data-vehicle="Ertiga">Book Ertiga Package</a>
+            </div>
+          </div>
+          
+          <!-- Pricing Card 4 -->
+          <div class="pricing-card reveal-fade-up">
+            <div class="pricing-header">
+              <h3 class="pricing-vehicle">Innova Crysta</h3>
+              <p class="pricing-meta">Executive Ultra-Luxury MPV</p>
+              <div class="pricing-price">
+                <span class="currency">₹</span><span class="amount">3,600</span>
+                <span class="period">/ Local Package</span>
+              </div>
+              <p class="package-details">(8 Hours / 80 Kilometers Included)</p>
+            </div>
+            <div class="pricing-features">
+              <div class="p-feature-item">
+                <span class="label">Extra KM Rate</span>
+                <span class="value">₹19 / KM</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Extra Hour Rate</span>
+                <span class="value">₹250 / Hour</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Outstation KM Rate</span>
+                <span class="value">₹19 / KM <small>(Min 250KM)</small></span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Driver Allowance</span>
+                <span class="value">₹400 / Day</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Features</span>
+                <span class="value text-accent">Captain Seats & Premium AC</span>
+              </div>
+            </div>
+            <div class="pricing-action">
+              <a href="#contact" class="btn btn-outline btn-block btn-select-price" data-vehicle="Innova Crysta">Book Crysta Package</a>
+            </div>
+          </div>
+          
+          <!-- Pricing Card 5 -->
+          <div class="pricing-card reveal-fade-up">
+            <div class="pricing-header">
+              <h3 class="pricing-vehicle">Tempo Traveller</h3>
+              <p class="pricing-meta">Spacious AC / Non-AC 12-17 Seater</p>
+              <div class="pricing-price">
+                <span class="currency">₹</span><span class="amount">4,500</span>
+                <span class="period">/ Local Package</span>
+              </div>
+              <p class="package-details">(8 Hours / 80 Kilometers Included)</p>
+            </div>
+            <div class="pricing-features">
+              <div class="p-feature-item">
+                <span class="label">Extra KM (AC/Non-AC)</span>
+                <span class="value">₹22 / ₹20 per KM</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Extra Hour Rate</span>
+                <span class="value">₹250 / Hour</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Outstation KM (AC)</span>
+                <span class="value">₹20 / KM <small>(Min 250KM)</small></span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Driver Allowance</span>
+                <span class="value">₹450 / Day</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Audio/Video System</span>
+                <span class="value text-accent">Included free of charge</span>
+              </div>
+            </div>
+            <div class="pricing-action">
+              <a href="#contact" class="btn btn-outline btn-block btn-select-price" data-vehicle="Tempo Traveller">Book Traveller</a>
+            </div>
+          </div>
+          
+          <!-- Pricing Card 6 -->
+          <div class="pricing-card reveal-fade-up">
+            <div class="pricing-header">
+              <h3 class="pricing-vehicle">Luxury Mini Bus</h3>
+              <p class="pricing-meta">AC / Non-AC 21 to 33 Seater</p>
+              <div class="pricing-price">
+                <span class="currency">₹</span><span class="amount">8,000</span>
+                <span class="period">/ Local Package</span>
+              </div>
+              <p class="package-details">(8 Hours / 80 Kilometers Included)</p>
+            </div>
+            <div class="pricing-features">
+              <div class="p-feature-item">
+                <span class="label">Extra KM (AC/Non-AC)</span>
+                <span class="value">₹35 / ₹30 per KM</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Extra Hour Rate</span>
+                <span class="value">₹500 / Hour</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Outstation KM (AC)</span>
+                <span class="value">₹35 / KM <small>(Min 250KM)</small></span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Driver Allowance</span>
+                <span class="value">₹500 / Day</span>
+              </div>
+              <div class="p-feature-item">
+                <span class="label">Suspension</span>
+                <span class="value text-accent">Heavy duty air-ride</span>
+              </div>
+            </div>
+            <div class="pricing-action">
+              <a href="#contact" class="btn btn-outline btn-block btn-select-price" data-vehicle="Mini Bus">Book Mini Bus</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-choose-us section-padding bg-light" id="why-choose-us">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag">Our Strengths</span>
+          <h2 class="section-title">Travel Agency Demo Standard</h2>
+          <p class="section-desc">We go the extra mile to guarantee a seamless, delightful, and completely stress-free road travel experience every single time.</p>
+        </div>
+        
+        <div class="why-choose-grid">
+          <!-- Item 1 -->
+          <div class="why-card reveal-fade-up" style="transition-delay: 0.1s;">
+            <div class="why-icon">
+              <i data-lucide="user-check"></i>
+            </div>
+            <h3 class="why-title">Professional Drivers</h3>
+            <p class="why-text">Verified, background-checked, and highly skilled drivers who know the local terrain, tourist sites, and highways across Karnataka perfectly.</p>
+          </div>
+          
+          <!-- Item 2 -->
+          <div class="why-card reveal-fade-up" style="transition-delay: 0.2s;">
+            <div class="why-icon">
+              <i data-lucide="indian-rupee"></i>
+            </div>
+            <h3 class="why-title">Affordable Pricing</h3>
+            <p class="why-text">Transparent and highly competitive flat tariffs with no hidden charges. Honest invoices reflecting exact kilometers and hours traveled.</p>
+          </div>
+          
+          <!-- Item 3 -->
+          <div class="why-card reveal-fade-up" style="transition-delay: 0.3s;">
+            <div class="why-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <h3 class="why-title">Clean & Sanitized Cabs</h3>
+            <p class="why-text">Vehicles are comprehensively washed, detailed, and freshened up before every single booking to provide you with absolute hygiene.</p>
+          </div>
+          
+          <!-- Item 4 -->
+          <div class="why-card reveal-fade-up" style="transition-delay: 0.4s;">
+            <div class="why-icon">
+              <i data-lucide="phone-call"></i>
+            </div>
+            <h3 class="why-title">24/7 Dedicated Support</h3>
+            <p class="why-text">A responsive round-the-clock booking team ready to assist with late-night emergencies, flight delays, or unexpected route changes.</p>
+          </div>
+          
+          <!-- Item 5 -->
+          <div class="why-card reveal-fade-up" style="transition-delay: 0.5s;">
+            <div class="why-icon">
+              <i data-lucide="shield-check"></i>
+            </div>
+            <h3 class="why-title">Safe & Secure Journey</h3>
+            <p class="why-text">Strict passenger safety features, disciplined speed control, state-of-the-art vehicle GPS tracking, and defensive driving practices.</p>
+          </div>
+          
+          <!-- Item 6 -->
+          <div class="why-card reveal-fade-up" style="transition-delay: 0.6s;">
+            <div class="why-icon">
+              <i data-lucide="clock"></i>
+            </div>
+            <h3 class="why-title">On-Time Pickups</h3>
+            <p class="why-text">We value your precious time. Our drivers arrive at least 15 minutes before your scheduled departure, fully prepared for the road.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding" id="testimonials">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag">Client Reviews</span>
+          <h2 class="section-title">What Our Travelers Say</h2>
+          <p class="section-desc">Over 2,000+ happy customers have trusted Keerthana Tours & Travels for their memorable family holidays, airport drops, and business trips.</p>
+        </div>
+        
+        <div class="testimonials-grid">
+          <!-- Card 1 -->
+          <div class="testimonial-card reveal-fade-up">
+            <div class="stars">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+            <p class="testimonial-text">"We booked an Innova Crysta for our family trip to Mysore and Coorg. The vehicle was absolutely spotless, looking and smelling like brand new. Our driver, Raghav, was highly polite, drove safely, and knew all the best restaurants on the highway. Exceptional service!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">SP</div>
+              <div class="reviewer-info">
+                <h4 class="reviewer-name">Suresh Prasad</h4>
+                <p class="reviewer-title">Tech Lead, Whitefield</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 2 -->
+          <div class="testimonial-card reveal-fade-up" style="transition-delay: 0.2s;">
+            <div class="stars">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+            <p class="testimonial-text">"Keerthana Travels is my absolute go-to for all our company's corporate drops and client transfers in Bangalore. Their punctuality is top-notch. Drivers are always neatly dressed and courteous. Best rental agency in Bangalore by a long shot!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">AN</div>
+              <div class="reviewer-info">
+                <h4 class="reviewer-name">Archana Nair</h4>
+                <p class="reviewer-title">HR Manager, Rajeshwari Layout</p>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Card 3 -->
+          <div class="testimonial-card reveal-fade-up" style="transition-delay: 0.4s;">
+            <div class="stars">
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+              <i data-lucide="star" class="star-filled"></i>
+            </div>
+            <p class="testimonial-text">"Outstanding group tour experience! We hired a 17-seater Tempo Traveller for our pilgrimage trip across Dharmasthala, Kukke Subramanya, and Udupi. Extremely comfortable AC, awesome sound system for songs, and very competitive flat pricing."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">RK</div>
+              <div class="reviewer-info">
+                <h4 class="reviewer-name">Ranganath K.</h4>
+                <p class="reviewer-title">Retired Professor, JP Nagar</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action Banner -->
+    <section class="cta-banner">
+      <div class="cta-bg">
+        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?auto=format&fit=crop&w=1600&q=80" alt="Beautiful scenic mountain road trip" class="cta-img">
+        <div class="cta-overlay"></div>
+      </div>
+      <div class="container cta-container reveal-fade-up">
+        <h2 class="cta-title">Ready for Your Next Memorable Journey?</h2>
+        <p class="cta-subtitle">Book your vehicle in under 2 minutes. Receive driver details 3 hours prior to trip. Flat rates with absolute transparency guaranteed.</p>
+        <div class="cta-actions">
+          <a href="#contact" class="btn btn-accent btn-large">
+            <i data-lucide="calendar"></i>
+            <span>Book Your Ride Now</span>
+          </a>
+          <a href="tel:+919379740044" class="btn btn-outline btn-white btn-large">
+            <i data-lucide="phone"></i>
+            <span>Call +91  9193******* </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact & Booking Section -->
+    <section class="contact section-padding" id="contact">
+      <div class="container">
+        <div class="section-header reveal-fade-up">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Schedule Your Vehicle Booking</h2>
+          <p class="section-desc">Fill out our quick query form or connect directly over phone / WhatsApp. Our dispatch desk will immediately coordinate the perfect vehicle for you.</p>
+        </div>
+        
+        <div class="contact-grid">
+          <!-- Form Card -->
+          <div class="contact-form-card reveal-fade-up">
+            <h3 class="form-card-title">Instant Booking & Quotation Request</h3>
+            <p class="form-card-sub">Form will generate a direct WhatsApp message for instantaneous approval.</p>
+            
+            <form id="booking-form" class="booking-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="full-name" class="form-label">Full Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="user" class="input-icon"></i>
+                    <input type="text" id="full-name" class="form-control" placeholder="E.g., Rajesh Kumar" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="phone-number" class="form-label">WhatsApp Number <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="phone" class="input-icon"></i>
+                    <input type="tel" id="phone-number" class="form-control" placeholder="E.g., +91 98765 43210" required>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="select-vehicle" class="form-label">Preferred Vehicle <span class="required">*</span></label>
+                  <div class="input-wrapper select-vehicle-wrapper">
+                    <i data-lucide="car" class="input-icon"></i>
+                    <input type="text" id="select-vehicle" list="vehicle-list" class="form-control" placeholder="Type or click options below..." required>
+                    <datalist id="vehicle-list">
+                      <option value="Sedan (Dzire / Etios)"></option>
+                      <option value="Maruti Suzuki Ertiga"></option>
+                      <option value="Toyota Innova"></option>
+                      <option value="Toyota Innova Crysta"></option>
+                      <option value="Tempo Traveller"></option>
+                      <option value="Luxury Mini Bus / Coach"></option>
+                    </datalist>
+                  </div>
+                  <div class="vehicle-options-tags">
+                    <button type="button" class="vehicle-tag-btn" data-value="Sedan (Dzire / Etios)">Dzire/Etios</button>
+                    <button type="button" class="vehicle-tag-btn" data-value="Maruti Suzuki Ertiga">Ertiga</button>
+                    <button type="button" class="vehicle-tag-btn" data-value="Toyota Innova">Innova</button>
+                    <button type="button" class="vehicle-tag-btn" data-value="Toyota Innova Crysta">Crysta</button>
+                    <button type="button" class="vehicle-tag-btn" data-value="Tempo Traveller">Tempo Traveller</button>
+                    <button type="button" class="vehicle-tag-btn" data-value="Luxury Mini Bus / Coach">Mini Bus</button>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="trip-type" class="form-label">Trip Category <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="compass" class="input-icon"></i>
+                    <select id="trip-type" class="form-control select-control" required>
+                      <option value="" disabled selected>Select trip type...</option>
+                      <option value="Airport Transfer">Airport Pickup & Drop-Off</option>
+                      <option value="Local Sightseeing">Local Sightseeing (Hourly Packages)</option>
+                      <option value="Outstation Tour">Outstation / Multi-day Tour</option>
+                      <option value="Corporate Hire">Corporate / Executive Travel</option>
+                      <option value="Wedding / Group Event">Wedding / Family Group Event</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="journey-date" class="form-label">Journey Date <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="calendar" class="input-icon"></i>
+                    <input type="date" id="journey-date" class="form-control" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="pickup-location" class="form-label">Pickup Location & Details <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="map-pin" class="input-icon"></i>
+                    <input type="text" id="pickup-location" class="form-control" placeholder="E.g., Kempegowda Airport / Whitefield" required>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="form-group">
+                <label for="special-instructions" class="form-label">Special Instructions / Destination (Optional)</label>
+                <div class="input-wrapper textarea-wrapper">
+                  <i data-lucide="message-square" class="input-icon textarea-icon"></i>
+                  <textarea id="special-instructions" class="form-control textarea-control" rows="3" placeholder="Tell us about destinations, luggage weight, baby seat requests or multiple stops..."></textarea>
+                </div>
+              </div>
+              
+              <button type="submit" class="btn btn-primary btn-block btn-submit">
+                <i data-lucide="message-square"></i>
+                <span>Submit & Book on WhatsApp</span>
+              </button>
+            </form>
+          </div>
+          
+          <!-- Contact Coordinates -->
+          <div class="contact-details-col reveal-fade-up">
+            <div class="coords-card">
+              <h3 class="coords-title">Immediate Assistance</h3>
+              <p class="coords-text">Get connected to our direct operators within 15 seconds. Available round-the-clock.</p>
+              
+              <div class="coord-items">
+                <!-- Phone -->
+                <a href="tel:+919379740044" class="coord-item">
+                  <div class="coord-icon">
+                    <i data-lucide="phone"></i>
+                  </div>
+                  <div class="coord-info">
+                    <span class="coord-label">Call Now</span>
+                    <span class="coord-value">+91 919********</span>
+                  </div>
+                </a>
+                
+                <!-- Email -->
+                <a href="mailto:booking@TravelAgencyDemo.in" class="coord-item">
+                  <div class="coord-icon">
+                    <i data-lucide="mail"></i>
+                  </div>
+                  <div class="coord-info">
+                    <span class="coord-label">Send Email</span>
+                    <span class="coord-value">booking@TravelAgencyDemo.in</span>
+                  </div>
+                </a>
+                
+                <!-- Address -->
+                <div class="coord-item">
+                  <div class="coord-icon">
+                    <i data-lucide="map-pin"></i>
+                  </div>
+                  <div class="coord-info">
+                    <span class="coord-label">Main Office</span>
+                    <span class="coord-value">11, Varanasi Main Road, Rajeshwari Layout, Bengaluru, Karnataka 560049</span>
+                  </div>
+                </div>
+                
+                <!-- Hours -->
+                <div class="coord-item">
+                  <div class="coord-icon">
+                    <i data-lucide="clock"></i>
+                  </div>
+                  <div class="coord-info">
+                    <span class="coord-label">Operating Hours</span>
+                    <span class="coord-value text-accent">Open 24 Hours / 365 Days</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Map Embed -->
+            <div class="map-container">
+              <!-- Highly polished, responsive Google Maps Embed centered on Varanasi Main Road, Bengaluru -->
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.218521016629!2d77.68953187588365!3d13.021759287299066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae111c1dfb1965%3A0xe54d80fc4ef2d9eb!2sVaranasi%20Main%20Rd%2C%20Bengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1715456249581!5m2!1sen!2sin" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade" 
+                class="google-map"
+                title="Keerthana Tours & Travels Location Map">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand -->
+        <div class="footer-col footer-brand-col">
+          <a href="#home" class="footer-logo">
+            <span class="logo-text">Travel</span>
+            <span class="logo-sub">Agency and Demo</span>
+          </a>
+          <p class="footer-about">Providing safe, professional, and completely transparent transport solutions across Karnataka since 2018. Your ultimate journey partner.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="social-link"><i data-lucide="facebook"></i></a>
+            <a href="#" aria-label="Instagram" class="social-link"><i data-lucide="instagram"></i></a>
+            <a href="#" aria-label="Twitter" class="social-link"><i data-lucide="twitter"></i></a>
+            <a href="#" aria-label="LinkedIn" class="social-link"><i data-lucide="linkedin"></i></a>
+          </div>
+        </div>
+        
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Our Services</a></li>
+            <li><a href="#fleet">Our Premium Fleet</a></li>
+            <li><a href="#pricing">Transparent Pricing</a></li>
+            <li><a href="#why-choose-us">Why Choose Us</a></li>
+            <li><a href="#testimonials">Customer Reviews</a></li>
+          </ul>
+        </div>
+        
+        <!-- Col 3: Services -->
+        <div class="footer-col">
+          <h4 class="footer-title">Services</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Airport Cabs Bengaluru</a></li>
+            <li><a href="#services">Local Full-Day Rentals</a></li>
+            <li><a href="#services">Outstation Tour Packages</a></li>
+            <li><a href="#services">Corporate Employee Cab</a></li>
+            <li><a href="#services">Luxury Marriage Coaches</a></li>
+            <li><a href="#services">Karnataka Pilgrimages</a></li>
+          </ul>
+        </div>
+        
+        <!-- Col 4: Contact -->
+        <div class="footer-col">
+          <h4 class="footer-title">Help & Bookings</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <i data-lucide="phone"></i>
+              <a href="tel:+919379740044">+91 9193********</a>
+            </li>
+            <li>
+              <i data-lucide="mail"></i>
+              <a href="mailto:booking@keerthanatravels.in">booking@TravelAgencyDemo.in</a>
+            </li>
+            <li>
+              <i data-lucide="map-pin"></i>
+              <span>11, Varanasi Main Road, Rajeshwari Layout, Bengaluru</span>
+            </li>
+            <li>
+              <i data-lucide="clock"></i>
+              <span class="text-accent">Available 24/7 / 365 Days</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">&copy; 2026 Travel Agency and Demo & . All Rights Reserved.</p>
+        <p class="designed-by">Designed with ❤️ for  Travel Agency and Demo</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919379740044?text=Hello%20Keerthana%20Tours%20%26%20Travels%2C%20I'd%20like%20to%20inquire%20about%20booking%20a%20vehicle." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Book on WhatsApp">
+    <span class="whatsapp-tooltip">Book on WhatsApp</span>
+    <span class="whatsapp-pulse"></span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="whatsapp-svg">
+      <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L32 503l139.7-36.6c32.6 17.8 69 27.2 106.4 27.2 122.4 0 222-99.6 222-222 0-59.3-23.2-115-65.1-157c-41.9-42-97.6-65.1-156.9-65.1zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-82.8 21.7 22.1-80.7-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7 .9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+    </svg>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" id="back-to-top" aria-label="Scroll back to top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- Lucide Vector Icons Library CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Custom Application Script -->
+  <script src="script.js"></script>
+</body>
+</html>
