@@ -1,0 +1,6 @@
+{
+  "name": "Keerthana Tours & Travels",
+  "description": "Premium travel agency website for Keerthana Tours & Travels in Bengaluru, Karnataka. Specializing in airport transfers, local sightseeing, outstation tours, and corporate travel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
