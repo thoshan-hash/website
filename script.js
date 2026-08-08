@@ -258,7 +258,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const encodedMessage = encodeURIComponent(message);
       
       // Keerthana's verified WhatsApp business number
-      const whatsappNumber = '919193712345';
+      const whatsappNumber = '9193712345';
       const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
 
       // Show temporary booking state or loading feedback
